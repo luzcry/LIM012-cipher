@@ -1,7 +1,7 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: rgb(218, 11, 149) 2px solid;
+    grid-template-columns: 1fr 1fr;                                                                             
+    border: #D98CAF 2px solid;
     color: rgb(108, 38, 110);
 }
 
@@ -30,12 +30,11 @@ h2 {
  background: #FFAFBD;  /* fallback for old browsers */
  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
  background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
  /*grid-template-rows: 1fr 1fr;*/
 }
 
 h1 {
-    color: crimson;
+    color: rgb(243, 54, 127);
 
 }
 h2 {
@@ -43,15 +42,18 @@ h2 {
 }
 
 h4{
-    color: rgb(108, 38, 110);
+    color: rgb(255, 255, 255);
     padding-left: 2px;
+    background-color: rgb(255, 88, 116); 
+    border: none;
+    box-shadow: 2px 2px 0 rgb(245, 112, 134);
+    font-weight: lighter;
 }
 
 .offset {
     display: grid;
-    grid-template-columns: 15% 1fr;
+    grid-template-columns: 5% 1fr;
     grid-gap: 6px;
-    margin-bottom: 1rem;
 }
 
 
@@ -65,7 +67,6 @@ h4{
     display: grid;
     grid-template-columns: 30% 1fr;
     grid-column-gap: 10px;
-
 }
 
 .text {
@@ -73,7 +74,30 @@ h4{
     padding-bottom: 1rem;
 }
 
-button {
-    margin-top: 10px;
+.borde {
+    border: dotted 1px steelblue;
+    outline: none;
+    margin-bottom: 10px;
 }
-/*adhasj*/
+
+.buttonStyle {
+    text-decoration: none;
+    background-color: rgb(251, 251, 253);
+    border: rgb(218, 11, 149) 1px solid;
+    border-radius: 10px;
+    color: rgb(163, 13, 113);
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 90px;
+    height: 50px;
+}
+
+.buttonStyle:hover {
+    background-color: rgb(197, 202, 240);
+    font-weight: bold;
+    padding: 3px;
+}
+
+/*font-family: 'Lemonada', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
