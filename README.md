@@ -7,7 +7,7 @@ Realicé el prototipo de baja fidelidad
 
 pero mi letra es horrorosa entonces hice otro prototipo de baja fidelidad pero usando la herramienta invision
 
-![caeser-cipher](https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo2.jpg);
+![caeser-cipher](https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo2.png);
 
 busqué iconos
 
