@@ -7,42 +7,46 @@
   </head>
   <body>
     <header>
-        <img src="iconos/lock.png" alt="">
+      <div class="background">
+        <img id="titleImg" src="iconos/icons8-heart-lock-100.png" alt="chat">
         <h1>¿Sabes que decir, pero no sabes cómo?</h1>
-        <h2>Celebra el mes del amor y la amistad</h2>
-        <h4>¿Cómo funciona? <br> Es un tipo de cifrado por sustitución, debe su nombre a Julio César, que lo usaba para comunicarse con sus generales. Hoy te mostramos cómo usar este método para que te comuniques como nunca con tu familia, amigos o con ese crush que no te deja dormir. </h4>
+        <img src="iconos/icons8-heart-key-100.png" alt="">
+      </div>
+      <h2>Celebra el mes del amor y la amistad</h2>
+      <h4>¿Cómo funciona? <br> Es un tipo de cifrado por sustitución, debe su nombre a Julio César, que lo usaba para comunicarse con sus generales. Hoy te mostramos cómo usar este método para que te comuniques como nunca con tu familia, amigos o con ese crush que no te deja dormir. </h4>
     </header>
     <main>
+      <div class="container">
       <div class="cypher">
         <h2>Cifrar Mensaje</h2>
-        <h4>Instrucciones del Cifrado:</h4> <br>
-        <div class="offset"> 
-          <input type="number">
-          <p>1)Ingresa el número de espacios que quieres que el cifrado se desplace en cada carácter (offset)</p>
-          <div class="Message"> 
-            <input type="text">
-            <p>2)Inserta el Mensaje que quieres cifrar</p>
-            <div class="CifradoComplete">
+        <h3>Instrucciones del Cifrado:</h3> <br>
+          <div class="offset"> 
+            <input type="number">
+              <p>1) Ingresa el número de espacios que quieres que el cifrado se desplace en cada carácter (offset)</p>
             </div>
-            <button>¡A cifrar!</button>
-          </div>
+            <div class="Message"> 
+            <input type="text">
+            <p>2) Inserta el Mensaje que quieres cifrar</p>
+            <div class="CifradoComplete"> </div>
         </div>
+        <button>¡A cifrar!</button>
       </div>
       <div class="unlock">
         <h2>Descifrar Mensaje</h2>
-        <h4>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h4>
+        <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
         <div class="offset"> 
-          <input type="number">
-          <p>1)Ingresa el número de espacios que tiene el cifrado (offset). </p>
-          <div class="cypher"> 
-            <input type="text">
-            <p>2)Inserta el mensaje cifrado que quieres revelar</p>
-            <div class="descifradoComplete">
-            </div>
-            <button>¡Descubre tu Mensaje!</button>
-          </div>
+            <input type="number"> 
+            <p>1) Ingresa el número de espacios que tiene el cifrado (offset). </p>
         </div>
+        <div class="cypherMessage"> 
+          <input type="text">
+          <p>2) Inserta el mensaje cifrado que quieres revelar</p>
+        </div>
+        <div class="descifradoComplete"> </div>
+          <button>¡Descubre tu Mensaje!</button>
+        
       </div>
+    </div>
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>

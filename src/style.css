@@ -1,0 +1,78 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: rgb(218, 11, 149) 2px solid;
+    color: rgb(108, 38, 110);
+}
+
+.cypher {
+    border:  rgb(218, 11, 149) 1px solid;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.unlock {
+    border:  rgb(218, 11, 149) 1px solid;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+h2 {
+    border: double rgb(216, 84, 145) 4px;
+    width: 30%;
+    text-align: center;
+}
+ 
+.background {
+ /*background-image: url(iconos/icons8-heart-lock-100-2.png);*/
+ display: grid;
+ grid-template-columns: 8% 40% 10%;
+ background: #FFAFBD;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+ /*grid-template-rows: 1fr 1fr;*/
+}
+
+h1 {
+    color: crimson;
+
+}
+h2 {
+    color: steelblue;
+}
+
+h4{
+    color: rgb(108, 38, 110);
+    padding-left: 2px;
+}
+
+.offset {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    grid-gap: 6px;
+    margin-bottom: 1rem;
+}
+
+
+.Message {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 10px;
+}
+
+.cypherMessage{ 
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 10px;
+
+}
+
+.text {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+button {
+    margin-top: 10px;
+}
