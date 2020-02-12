@@ -21,12 +21,12 @@
         <h2 class="head">Cifrar Mensaje</h2>
         <h3>Instrucciones del Cifrado:</h3> <br>
           <div class="offset"> 
+            <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
             <input class="borde" type="number">
-              <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
             </div>
             <div class="Message"> 
-              <input class="borde" type="text">
               <p>2) Inserta el mensaje que quieres cifrar</p>
+              <input class="borde" type="text">
             <div class="CifradoComplete"> </div>
         </div>
         <button class="buttonStyle">¡A cifrar!</button>
@@ -35,23 +35,23 @@
         <h2 class="head">Descifrar Mensaje</h2>
         <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
         <div class="offset"> 
-            <input class="borde" type="number"> 
-            <p>1) Ingresa el número de espacios que tiene el cifrado. </p>
+           <p>1) Ingresa el número de espacios que tiene el cifrado. </p>
+            <input class="borde" type="number">
         </div>
         <div class="cypherMessage"> 
-          <input class="borde" type="text">
           <p>2) Inserta el mensaje cifrado que quieres revelar</p>
+          <input class="borde" type="text">
         </div>
         <div class="descifradoComplete"> </div>
-          <button class="buttonStyle">¡Descubre tu Mensaje!</button>
+          <button id="boton" class="buttonStyle">¡Descubre tu Mensaje!</button>
       </div>
     </div>
     </main>
     <div class="middleSection">
-      <p id="section2"> resultado que vendrá de cipher.js</p>
+      <p class="results" id="section1"> </p>
       <img class="imgResult" src="iconos/unlock.png" alt="">
       <img class="imgResult" src="iconos/key.png" alt="">
-      <p id="section2"> resultado que vendrá de cipher.js</p>
+      <p class="results" id="section2"> </p>
     </div>
     <footer>
       <p align="center" >Made with <img src="https://img.icons8.com/plasticine/16/000000/like--v1.png"> by María Rodríguez, special thanks to Laboratoria and <a href="https://icons8.com/icons"> Icons8</a> </p>

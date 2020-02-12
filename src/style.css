@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-image: url(background-image: url(https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo2.jpg);
 }
 
 footer {
@@ -38,20 +39,22 @@ footer {
 
 .offset {
     display: grid;
-    grid-template-columns: 10% 1fr;
+    grid-template-columns: 1fr 10%;
     grid-gap: 6px;
 }
 
 .Message {
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 10px;
+    padding-right: 15px;
 }
 
 .cypherMessage{ 
     display: grid;
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 40% 60%;
     grid-column-gap: 10px;
+    padding-right: 15px;
 }
 
 .text {
@@ -94,13 +97,22 @@ footer {
     justify-self: center;
     padding-left: 1rem;
     margin-top: 15px;
-    
 }
 
 .imgResult {
     width: 70px;
 }
 
+.results {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 88, 116); 
+    border: none;
+    box-shadow: 3px 3px 0 rgb(241, 178, 188);
+    font-weight: lighter;
+    text-align: justify;
+    width: 350px;
+}
 #tittle {
     color: rgb(165, 56, 123);
     font-size: 45px;
@@ -124,16 +136,7 @@ footer {
     font-size: 20px;
     padding-left: 10px;
 }
-#section2 {
-    padding: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(255, 88, 116); 
-    border: none;
-    box-shadow: 3px 3px 0 rgb(241, 178, 188);
-    font-weight: lighter;
-    text-align: justify;
-    width: 350px;
-}
+
 
 /*font-family: 'Lemonada', cursive;
 font-family: 'Poppins', sans-serif;
