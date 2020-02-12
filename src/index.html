@@ -10,34 +10,33 @@
     <header>
       <div class="background">
         <img id="titleImg" src="iconos/icons8-heart-lock-100.png" alt="chat">
-        <h1>¿Sabes que decir, pero no sabes cómo?</h1>
-        <img src="iconos/icons8-heart-key-100.png" alt="">
+        <h1 id="tittle">¿Sabes que decir, pero no sabes cómo?</h1>
+        <img id="iconKey" src="iconos/icons8-heart-key-100.png" alt="">
       </div>
-      <h2>Celebra el mes del amor y la amistad</h2>
-      <h4>¿Cómo funciona? <br> Es un tipo de cifrado por sustitución, debe su nombre a Julio César, que lo usaba para comunicarse con sus generales. Hoy te mostramos cómo usar este método para que te comuniques como nunca con tu familia, amigos o con ese crush que no te deja dormir. </h4>
+       <h2 id="subtittle">Celebra el mes del amor y la amistad codificando tus mensajes secretos con el Cifrado César</h2>
     </header>
     <main>
       <div class="container">
       <div class="cypher">
-        <h2>Cifrar Mensaje</h2>
+        <h2 class="head">Cifrar Mensaje</h2>
         <h3>Instrucciones del Cifrado:</h3> <br>
           <div class="offset"> 
             <input class="borde" type="number">
-              <p>1) Ingresa el número de espacios que quieres que el cifrado se desplace en cada carácter (offset)</p>
+              <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
             </div>
             <div class="Message"> 
-            <input class="borde" type="text">
-            <p>2) Inserta el mensaje que quieres cifrar</p>
+              <input class="borde" type="text">
+              <p>2) Inserta el mensaje que quieres cifrar</p>
             <div class="CifradoComplete"> </div>
         </div>
         <button class="buttonStyle">¡A cifrar!</button>
       </div>
       <div class="unlock">
-        <h2>Descifrar Mensaje</h2>
+        <h2 class="head">Descifrar Mensaje</h2>
         <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
         <div class="offset"> 
             <input class="borde" type="number"> 
-            <p>1) Ingresa el número de espacios que tiene el cifrado (offset). </p>
+            <p>1) Ingresa el número de espacios que tiene el cifrado. </p>
         </div>
         <div class="cypherMessage"> 
           <input class="borde" type="text">
@@ -45,11 +44,18 @@
         </div>
         <div class="descifradoComplete"> </div>
           <button class="buttonStyle">¡Descubre tu Mensaje!</button>
-        
       </div>
     </div>
     </main>
-    <footer></footer>
+    <div class="middleSection">
+      <p id="section2"> resultado que vendrá de cipher.js</p>
+      <img class="imgResult" src="iconos/unlock.png" alt="">
+      <img class="imgResult" src="iconos/key.png" alt="">
+      <p id="section2"> resultado que vendrá de cipher.js</p>
+    </div>
+    <footer>
+      <p align="center" >Made with <img src="https://img.icons8.com/plasticine/16/000000/like--v1.png"> by María Rodríguez, special thanks to Laboratoria and <a href="https://icons8.com/icons"> Icons8</a> </p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -1,64 +1,46 @@
 body {
-    margin: 2;
+    margin: 0;
+}
+
+footer {
+    margin-top: 3rem;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(206, 8, 140);
 }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;                                                                             
-    border: #D98CAF 2px solid;
-    color: rgb(108, 38, 110);
+    border: rgb(209, 8, 142) 2px solid;
+    color: rgb(190, 73, 194);
 }
 
 .cypher {
-    border:  rgb(218, 11, 149) 1px solid;
+    border:  rgb(209, 8, 142) 1px solid;
     padding-bottom: 2rem;
     padding-left: 1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .unlock {
-    border:  rgb(218, 11, 149) 1px solid;
+    border:  rgb(209, 8, 142) 1px solid;
     padding-bottom: 2rem;
     padding-left: 1rem;
-}
-
-h2 {
-    border: double rgb(216, 84, 145) 4px;
-    width: 30%;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
  
 .background {
- /*background-image: url(iconos/icons8-heart-lock-100-2.png);*/
- display: grid;
- grid-template-columns: 8% 40% 10%;
- background: #FFAFBD;  /* fallback for old browsers */
- background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
- background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- /*grid-template-rows: 1fr 1fr;*/
-}
-
-h1 {
-    color: rgb(243, 54, 127);
-
-}
-h2 {
-    color: steelblue;
-}
-
-h4{
-    color: rgb(255, 255, 255);
-    padding-left: 2px;
-    background-color: rgb(255, 88, 116); 
-    border: none;
-    box-shadow: 2px 2px 0 rgb(245, 112, 134);
-    font-weight: lighter;
+    display: grid;
+    grid-template-columns: 8% 75% 15%;
+    background: #FFAFBD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .offset {
     display: grid;
-    grid-template-columns: 5% 1fr;
+    grid-template-columns: 10% 1fr;
     grid-gap: 6px;
 }
-
 
 .Message {
     display: grid;
@@ -78,9 +60,14 @@ h4{
 }
 
 .borde {
-    border: dotted 1px steelblue;
+    border: solid 1px rgb(195, 17, 136);
     outline: none;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding-left: 6px;
+}
+
+.head{
+    color: rgb(206, 8, 140);
 }
 
 .buttonStyle {
@@ -96,9 +83,56 @@ h4{
 }
 
 .buttonStyle:hover {
-    background-color: rgb(197, 202, 240);
+    background-color: rgb(235, 176, 198);
     font-weight: bold;
     padding: 3px;
+}
+
+.middleSection {
+    display: grid;
+    grid-template-columns: 30% 23% 8% 40%;
+    justify-self: center;
+    padding-left: 1rem;
+    margin-top: 15px;
+    
+}
+
+.imgResult {
+    width: 70px;
+}
+
+#tittle {
+    color: rgb(165, 56, 123);
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#titleImg{
+    padding: 1rem;
+    width: 85px;
+}
+#iconKey {
+    padding: 1rem;
+    width: 85px;
+}
+
+#subtittle {
+    width: 90%;
+    color: rgb(243, 54, 127);
+    font-family: 'Lemonada', cursive;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#section2 {
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 88, 116); 
+    border: none;
+    box-shadow: 3px 3px 0 rgb(241, 178, 188);
+    font-weight: lighter;
+    text-align: justify;
+    width: 350px;
 }
 
 /*font-family: 'Lemonada', cursive;
