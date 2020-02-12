@@ -17,3 +17,13 @@ La estructura HTML del prototipo, Colocar iconos, organizar el html con css, dec
 
 ¿Tengo algún impedimento?
 No
+
+Daily 12-02-2020
+
+¿que hice ayer?
+Hice toda mi estructura html, establecí como queria que se viera la pagina
+
+¿Que hare hoy? funcionalidad de javascript 
+
+¿impedimentos? 
+ninguno
