@@ -17,33 +17,33 @@
     </header>
     <main>
       <div class="container">
-      <div class="cypher">
-        <h2 class="head">Cifrar Mensaje</h2>
-        <h3>Instrucciones del Cifrado:</h3> <br>
-          <div class="offset"> 
+        <div class="cypher">
+          <h2 class="head">Cifrar Mensaje</h2>
+          <h3>Instrucciones del Cifrado:</h3> <br>
+        <div class="offset"> 
             <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
-            <input class="borde" type="number">
-            </div>
-            <div class="Message"> 
-              <p>2) Inserta el mensaje que quieres cifrar</p>
-              <input class="borde" type="text">
+            <input class="borde" id="offset1" type="number">
+        </div>
+        <div class="Message"> 
+            <p>2) Inserta el mensaje que quieres cifrar</p>
+            <input class="borde" id="texto1" type="text">
             <div class="CifradoComplete"> </div>
         </div>
-        <button class="buttonStyle">¡A cifrar!</button>
+        <button class="buttonStyle" id="btn">¡A cifrar!</button>
       </div>
       <div class="unlock">
         <h2 class="head">Descifrar Mensaje</h2>
         <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
         <div class="offset"> 
            <p>1) Ingresa el número de espacios que tiene el cifrado. </p>
-            <input class="borde" type="number">
+            <input class="borde" id="offset2" type="number">
         </div>
         <div class="cypherMessage"> 
-          <p>2) Inserta el mensaje cifrado que quieres revelar</p>
-          <input class="borde" type="text">
+          <p id="one">2) Inserta el mensaje cifrado que quieres revelar</p>
+          <input class="borde" id="texto2" type="text">
         </div>
         <div class="descifradoComplete"> </div>
-          <button id="boton" class="buttonStyle">¡Descubre tu Mensaje!</button>
+          <button class="buttonStyle" id="btn2">¡Descubre tu Mensaje!</button>
       </div>
     </div>
     </main>

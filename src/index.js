@@ -1,18 +1,24 @@
 import cipher from './cipher.js';
 
-let offset = document.querySelector(".borde")
+let offsetCypher = document.querySelector("#offset1");
+console.log(offsetCypher);
 
-let Message = document.querySelector(".Message")
+let Message = document.querySelector("#texto1");
+console.log(Message);
 
+let offsetDecode = document.querySelector("#offset2");
+console.log()
 
-//document.getElementsByClassName("#boton").addEventListener('click', function(e){
-//newButton_Click(document.getElementsByClassName("#boton"),e)
-// })
+let Message2 = document.querySelector("#text2");
 
-  document.querySelector("#section1").innerHTML = "Texto";
+const btn = document.querySelector("#btn");
+btn.addEventListener('click', () => {
+  alert(`Hola! Mucho gusto en conocerte`);
+});
 
-let normalChart = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-
-let fixedChart = "DEFGHIJKLMNOPQRSTUVWXYZABC"
+const btn2 = document.querySelector("#btn2");
+btn2.addEventListener('click', () => {
+  alert(`Hola! Mucho gusto en conocerte`);
+});
 
 console.log(cipher);
