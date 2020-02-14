@@ -1,29 +1,15 @@
+Cifrado Cesar:
 
-Daily 11 02 2020
-¿Que hice ayer? 
-Investigué sobre prototipos
-Realicé el prototipo de baja fidelidad 
+Una revista digital dirigida a jóvenes que busca impulsar su número de visitas con un juego de cifrado por motivo del mes del amor y la amistad.
+
+feedback recibido:
+-Cambiar el orden del input y las instrucciones
+Prototipo de baja fidelidad hecho en papel 
 
 ![caeser-cipher](https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo1.jpg)
 
-pero mi letra es horrorosa entonces hice otro prototipo de baja fidelidad, usando la herramienta invision
+pero mi letra es horrorosa entonces hice otro prototipo de baja fidelidad, usando la herramienta
+
+Prototipo hecho en inVision
 
 ![caeser-cipher](https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo2.png)
-
-busqué iconos
-
-¿Que haré hoy?
-La estructura HTML del prototipo, Colocar iconos, organizar el html con css, decoración css.
-
-¿Tengo algún impedimento?
-No
-
-Daily 12-02-2020
-
-¿que hice ayer?
-Hice toda mi estructura html, establecí como queria que se viera la pagina
-
-¿Que hare hoy? funcionalidad de javascript 
-
-¿impedimentos? 
-ninguno
