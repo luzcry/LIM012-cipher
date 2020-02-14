@@ -30,12 +30,18 @@ footer {
  
 .background {
     display: grid;
-    grid-template-columns: 8% 75% 15%;
+    grid-template-columns: 8% 65% 12% 12%;
     background: #FFAFBD;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.icons{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
 .offset {
     display: grid;
     grid-template-columns: 1fr 15%;  
@@ -113,7 +119,7 @@ footer {
 }
 #tittle {
     color: rgb(165, 56, 123);
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
