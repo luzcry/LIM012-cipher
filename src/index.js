@@ -1,18 +1,6 @@
 import cipher from './cipher.js';
 
-/*const fixedStr =  ["D", "E", "F","G","H","I","J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "A", "B", "C"];
-const normalStr = ["A", "B", "C", "D", "E", "F", "G", "H","I","J","K","L","M","N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-let offset = 0; */
-//let char = 0;
-let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let message = document.querySelector("#texto1");
-//let cadena = 0;
-//codigo ascii
-function convertText () {
-  let n = str.charCodeAt(); 
-  document.querySelector("#section1").innerHTML =  (`Tu texto es ${n}`);
-}
-convertText();
 
 let offsetCypher = document.querySelector("#offset1");
 
@@ -23,7 +11,7 @@ let offsetCypher = document.querySelector("#offset1");
 
 const btn = document.querySelector("#btn");
 btn.addEventListener('click', () => {
-  document.querySelector("#section1").innerHTML = (`Tu texto es ${cipher.encode(message, offsetCypher)}`);
+  document.querySelector("#section1").innerHTML = (` ${cipher.encode(message, offsetCypher)}`);
 });
 
 const btn2 = document.querySelector("#btn2");
