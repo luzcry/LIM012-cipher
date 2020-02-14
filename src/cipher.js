@@ -7,9 +7,10 @@ const encode = (text, n) => {
         let charCode = array.charCodeAt(index)
         let newChar = String.fromCharCode((charCode-65+offset) % 26 + 65)
         result.push(newChar);
-    }
-    console.log("result", result, result.toString())
-    return result
+         }
+        console.log("result", result, result.toString())
+        let changeCaracter = result.toString().replace(/,/g, "");
+        return changeCaracter;       
 }
 const decode = (text, n) => {
     let offset = n.value
@@ -19,6 +20,7 @@ const decode = (text, n) => {
         let charCode = array.charCodeAt(index)
         let newChar = String.fromCharCode((charCode-65-offset) % 26 + 65)
         result.push(newChar);
+       
     }
     console.log("result", result, result.toString())
     return result
