@@ -15,6 +15,6 @@ btn.addEventListener('click', () => {
 
 const btn2 = document.querySelector("#btn2");
 btn2.addEventListener('click', () => {
-  document.querySelector("#section2").innerHTML = (`Tu texto es ${message}`);
+  document.querySelector("#section2").innerHTML = (` ${cipher.decode(Message2, offsetDecode)}`);
 });
 
