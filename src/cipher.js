@@ -1,11 +1,10 @@
 
 const encode = (text, n) => {
-    let offset = n.value
     let result = [];
     let array = text.value;
     for (let index = 0; index < array.length; index++) {
         let charCode = array.charCodeAt(index)
-        let newChar = String.fromCharCode((charCode-65+offset) % 26 + 65)
+        let newChar = String.fromCharCode((charCode-65+n) % 26 + 65)
         result.push(newChar);
          }
         console.log("result", result, result.toString())
@@ -13,17 +12,10 @@ const encode = (text, n) => {
         return changeCaracter;       
 }
 const decode = (text, n) => {
-    let offset = n.value
-    let result = [];
-    let array = text.value;
-    for (let index = 0; index < array.length; index++) {
-        let charCode = array.charCodeAt(index)
-        let newChar = String.fromCharCode((charCode-65+offset) % 26 + 65);
-        result.push(newChar);
-    }
-    console.log("result", result, result.toString())
-    let changeCaracter = result.toString().replace(/,/g, "");
-    return changeCaracter;       
+    let result = "";
+    n = (26 -n) % 26;
+    result = encode(text,n);
+    return result;      
 } 
 
 const cipher = {
