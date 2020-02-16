@@ -1,34 +1,30 @@
 
 const encode = (text, n) => {
-    //let result = [];
-    let array = text.value;
+
     var myStringCipher = '';  
     var cipherFormula;
-    for (let index = 0; index < array.length; index++) {
-        let charCode = array.charCodeAt(index)
+    for (let index = 0; index < text.length; index++) {
+        let charCode = text.charCodeAt(index)
         console.log("n", n);
-        
-        cipherFormula = ( charCode - 65 + 33) % 26 + 65; // formula de Cifrado Cesar: obtener nuevo numero de letra  en el codigo ASCII
+        cipherFormula = ( charCode - 65 + n) % 26 + 65;
+        console.log("formula", cipherFormula, n)
         let newChar =  String.fromCharCode(cipherFormula)
         myStringCipher +=newChar;
     }
-   /* console.log("result", result, result.toString())
-    let changeCaracter = result.toString().replace(/,/g, "");
-    */
+  
     return myStringCipher;       
 }
 const decode = (text, n) => {
-    let result = [];
-    let array = text.value;
-    for (let index = 0; index < array.length; index++) {
-        let charCode = array.charCodeAt(index)
-        let newChar = String.fromCharCode((charCode-13-n) % 26 + 65)
-        result.push(newChar);
+    let myDecode = '';
+    let decodeFormula;
+    for (let index = 0; index < text.length; index++) {
+        let charCode = text.charCodeAt(index)
+        decodeFormula = (charCode - 13 - n) % 26 + 65;
+        console.log("formula", decodeFormula, n);
+        let newChar = String.fromCharCode(decodeFormula)
+        myDecode +=newChar;
     }
-    console.log("result", result, result.toString())
-    let changeCaracter = result.toString().replace(/,/g, "");
-    return changeCaracter;     
-    // decipherFormula = ( numberOfTheLetter -13 - 33) % 26 + 65; // 
+    return myDecode;   
 } 
 
 const cipher = {
