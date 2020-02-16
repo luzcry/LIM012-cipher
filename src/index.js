@@ -12,6 +12,8 @@ const btn = document.querySelector("#btn");
 
 btn.addEventListener('click', () => {
   let offset = offsetCypher.value
+  console.log(offset);
+  
   document.querySelector("#section1").innerHTML = (` ${cipher.encode(message, offset)}`);
 });
 
