@@ -1,17 +1,21 @@
 
 const encode = (text, n) => {
 
-    var myStringCipher = '';  
-    var cipherFormula;
+    let myStringCipher = '';  
+    let cipherFormula;
     for (let index = 0; index < text.length; index++) {
         let charCode = text.charCodeAt(index)
         console.log("n", n);
         cipherFormula = ( charCode - 65 + n) % 26 + 65;
         console.log("formula", cipherFormula, n)
         let newChar =  String.fromCharCode(cipherFormula)
-        myStringCipher +=newChar;
+        if (charCode === 32) {
+            myStringCipher += ' ';
+            
+        } else {
+             myStringCipher += newChar;
+        }
     }
-  
     return myStringCipher;       
 }
 const decode = (text, n) => {
@@ -22,7 +26,11 @@ const decode = (text, n) => {
         decodeFormula = (charCode - 13 - n) % 26 + 65;
         console.log("formula", decodeFormula, n);
         let newChar = String.fromCharCode(decodeFormula)
-        myDecode +=newChar;
+        if (charCode === 32) {
+            myDecode += ' ';
+    } else {
+            myDecode +=newChar;
+       }
     }
     return myDecode;   
 } 

@@ -156,6 +156,40 @@ footer {
     padding-left: 10px;
 }
 
+#text1{
+    color: rgb(243, 54, 127);
+    font-size: 20px;
+    font-weight: bold;
+}
+#text2{
+    color: rgb(243, 54, 127);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#offset1 {
+    color: rgb(223, 22, 163);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+#offset2 {
+    color: rgb(223, 22, 163);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+#section1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+#section2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
 
 
 /*font-family: 'Lemonada', cursive;

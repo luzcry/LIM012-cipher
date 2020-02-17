@@ -1,8 +1,5 @@
 import cipher from './cipher.js';
 
-
-
-
 const btn = document.querySelector("#btn");
 
 btn.addEventListener('click', () => {
