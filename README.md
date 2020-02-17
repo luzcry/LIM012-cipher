@@ -23,9 +23,9 @@ En el primer sprint hice un prototipo en invision que traduje en HTML usando sel
 
 Planeacion del sprint 2 <br>
 ¿Que falta? <br>
--Condicion letras minúsculas
--Condición caracteres especiales
--Condición si el offset es negativo
--Ajustar pantalla
--Conocer sobre los test
--Pasar mas del 70% de los test.
+-Condicion letras minúsculas <br>
+-Condición caracteres especiales <br>
+-Condición si el offset es negativo <br>
+-Ajustar pantalla <br>
+-Conocer sobre los test <br>
+-Pasar mas del 70% de los test. <br>
