@@ -11,6 +11,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 1rem; 
+    margin-top: 15px;
 }
 
 .twitter-share-button {
@@ -111,16 +112,16 @@ footer {
 }
 
 .middleSection {
-    display: grid;
+    /*display: grid;
     grid-template-columns: 30% 30% 8% 40%;
     justify-self: center;
     padding-left: 1rem;
+    margin-top: 15px;*/
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 15px;
 }
 
-.imgResult {
-    width: 70px;
-}
 
 .results {
     padding: 1rem;
@@ -147,6 +148,7 @@ footer {
     padding: 1rem;
     width: 85px;
 }
+
 
 #subtittle {
     width: 90%;
@@ -184,13 +186,31 @@ footer {
 #section1 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 #section2 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
+#chain {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 7px;
+    height: 75px;
+}
+
+
+#key {
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 7px;
+    height: 75px;
+}
 
 /*font-family: 'Lemonada', cursive;
 font-family: 'Poppins', sans-serif;

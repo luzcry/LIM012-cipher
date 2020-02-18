@@ -18,6 +18,11 @@ export const encode = (text, n) => {
             cipherFormula = (charCode - 97 + n) % 26 + 97;
             let newChar =  String.fromCharCode(cipherFormula);
              myStringCipher += newChar;
+        } else if (charCode === 164 && charCode === 165) {
+            cipherFormula = (charCode - 164 + n) % 26 + 164;
+            let newChar = String.fromCharCode(cipherFormula)
+            myStringCipher += newChar;
+            console.log  ("prueba de ñ", cipherFormula, n)
         }
     }
     return myStringCipher;       
@@ -32,7 +37,7 @@ export const decode = (text, n) => {
             decodeFormula = (charCode - 13 - n) % 26 + 65;
             console.log("formula", decodeFormula, n);
             let newChar = String.fromCharCode(decodeFormula)
-            myDecode +=newChar;
+            myDecode += newChar;
         }
         else if (charCode === 32) {
             myDecode += ' ';
@@ -40,7 +45,12 @@ export const decode = (text, n) => {
             decodeFormula = (charCode - 45 - n) % 26 + 97;
             let newChar =  String.fromCharCode(decodeFormula);
             myDecode += newChar;
-        } 
+        } else if (charCode === 164 && charCode === 165) {
+            decodeFormula = (charCode -13 - n) % 26 + 164;
+            let newChar = String.fromCharCode(decodeFormula)
+            myDecode += newChar;
+            
+        }
     }
     return myDecode;   
 }
