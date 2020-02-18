@@ -2,9 +2,11 @@ Cifrado Cesar: <br>
 
 Una revista digital dirigida a jóvenes que busca impulsar su número de visitas con un juego de cifrado por motivo del mes del amor y la amistad.
 
-feedback recibido:
--Al primer prototipo le faltaba el valor "offset"
--Cambiar el orden del input y las instrucciones
+feedback recibido: <br>
+-Al primer prototipo le faltaba el valor "offset" <br>
+-Cambiar el orden del input y las instrucciones <br>
+-Adaptar el diseño a la web <br>
+
 Prototipo de baja fidelidad hecho en papel <br>
 
 ![caeser-cipher](https://luzcry.github.io/LIM012-cipher/src/iconos/prototipo1.jpg)

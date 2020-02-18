@@ -5,13 +5,13 @@ import cipher from '../src/cipher';
 describe('cipher', () => {
 
   it('cipher debería ser un objeto', () => {
-    expect(typeof cipher).toBe('encode');
+    expect(typeof cipher).toBe('object');
   });
 
   describe('cipher.encode', () => {
 
     it('debería ser una función', () => {
-      expect(typeof cipher.encode).toBe('encode');
+      expect(typeof cipher.encode).toBe('function');
     });
 
     it('debería arrojar TypeError cuando se invoca con tipos de argumento incorrectos', () => {
