@@ -9,7 +9,7 @@ footer {
 }
 .sharebtn {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 45% 45%;
     gap: 1rem; 
     margin-top: 15px;
 }
@@ -46,7 +46,7 @@ footer {
  
 .background {
     display: grid;
-    grid-template-columns: 8% 73% 10% 8%;
+    grid-template-columns:  minmax(max-content, 8%) minmax(max-content, 73%)  minmax(max-content, 10%)  minmax(max-content, 8%);
     background: #FFAFBD;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -112,13 +112,10 @@ footer {
 }
 
 .middleSection {
-    /*display: grid;
-    grid-template-columns: 30% 30% 8% 40%;
+    display: grid;
+    grid-template-columns: minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%) minmax(max-content, 40%);
     justify-self: center;
     padding-left: 1rem;
-    margin-top: 15px;*/
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 15px;
 }
 
@@ -210,6 +207,7 @@ footer {
     flex-shrink: 1;
     margin: 7px;
     height: 75px;
+    
 }
 
 /*font-family: 'Lemonada', cursive;
