@@ -29,7 +29,7 @@
        }
      }
    } catch (error) {
-     return error;
+     throw new error;
    }
 
    return myStringCipher;
@@ -38,29 +38,34 @@
  const decode = (n, text) => {
    let myDecode = '';
    let decodeFormula;
-   for (let index = 0; index < text.length; index++) {
-     let charCode = text.charCodeAt(index)
-     if (charCode >= 65 && charCode <= 90) {
-       decodeFormula = (charCode - 13 - n) % 26 + 65;
-       let newChar = String.fromCharCode(decodeFormula);
-       myDecode += newChar;
-     } else if (charCode === 32) {
-       myDecode += ' ';
-     } else if (charCode >= 97 && charCode <= 122) {
-       decodeFormula = (charCode - 45 - n) % 26 + 97;
-       let newChar = String.fromCharCode(decodeFormula);
-       myDecode += newChar;
-     } else if (charCode >= 33 && charCode <= 47 || charCode >= 58 && charCode <= 64) { //caracteres especiales
-       let newChar = String.fromCharCode(charCode);
-       myDecode += newChar;
-     } else if (charCode === 164) {
-       decodeFormula = (charCode - 164 - n) % 26 + 164;
-       let newChar = String.fromCharCode(decodeFormula)
-       myDecode += newChar;
+   try {
+     for (let index = 0; index < text.length; index++) {
+       let charCode = text.charCodeAt(index)
+       if (charCode >= 65 && charCode <= 90) {
+         decodeFormula = (charCode - 13 - n) % 26 + 65;
+         let newChar = String.fromCharCode(decodeFormula);
+         myDecode += newChar;
+       } else if (charCode >= 97 && charCode <= 122) {
+         decodeFormula = (charCode - 45 - n) % 26 + 97;
+         let newChar = String.fromCharCode(decodeFormula);
+         myDecode += newChar;
+       } else if (charCode >= 32 && charCode <= 47 || charCode >= 58 && charCode <= 64) { //caracteres especiales
+         let newChar = String.fromCharCode(charCode);
+         myDecode += newChar;
+       } else if (charCode === 164) {
+         decodeFormula = (charCode - 164 - n) % 26 + 164;
+         let newChar = String.fromCharCode(decodeFormula)
+         myDecode += newChar;
+       }
      }
+   } catch (error) {
+     throw new error;
    }
+
    return myDecode;
+
  }
+
 
  const cipher = {
    encode,
