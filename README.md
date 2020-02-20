@@ -32,7 +32,7 @@ Planeación del sprint 2 <br>
 -Conocer sobre los test <br>
 -Pasar mas del 70% de los test. <br>
 
-Investigación UX:
+Investigación UX: <br>
 Explicar quiénes son los usuarios y los objetivos en relación con el producto. <br>
 Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios. <br>
 Los usuarios son personas de 12 años en adelante, que se interesan en tener conocimientos de cultura general mediante la lectura de artículos en una revista digital que fomenta la ciencia entre los mas jóvenes, con motivo del mes del amor y la amistad esta revista quería implementar en su web un juego que les mostrara de manera didáctica uno de los cifrados mas sencillos y antiguos y que, por medio de los botones de compartir, se pudiera captar nuevos lectores del contenido de la pagina.

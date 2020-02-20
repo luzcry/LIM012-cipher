@@ -1,7 +1,6 @@
 import cipher from './cipher.js';
 
 const btn = document.querySelector("#btn");
-
 btn.addEventListener('click', () => {
   let message = document.querySelector("#text1").value;
   let offsetCypher = parseInt(document.getElementById('offset1').value, 10)
