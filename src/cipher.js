@@ -63,9 +63,9 @@ const decode = (n, text) => {
   }
   //typeError
   try {
-    if (text == null) throw error;
-    if (text == "0") throw error;
-    if (text == " ") throw error;
+    if (text === null) throw error;
+    if (text === "0") throw error;
+    if (text === " ") throw error;
   } catch (error) {
     throw new error();
   }
