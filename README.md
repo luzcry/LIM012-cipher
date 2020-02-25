@@ -30,6 +30,21 @@ Planeación del sprint 2 <br>
 -Conocer sobre los test <br>
 -Pasar mas del 70% de los test. <br>
 
+Sprint checkout 2 <br>
+-Lista la condición letras minusculas <br>
+-Lista la condición caracteres especiales <br>
+-Cambios en el css <br>
+-Estudié sobre los test <br>
+-Logré pasar los 11 test con una cobertura de 81% en branch, funciones 100%, stmts 89,90% y lineas 97.83% <br>
+-Hice una serie de condiciones con try-catch para cuando el usuario coloca null, vacío o 0 se muestre un typeerror en el test <br>
+
+¿Qué falta del proyecto? <br>
+-Hacker edition de offset negativo <br>
+
+¿Qué siento que puedo mejorar? <br>
+asdfghjk,
+Me sentí increíble esta semana
+
 Investigación UX: <br>
 Explicar quiénes son los usuarios y los objetivos en relación con el producto. <br>
 Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios. <br>
