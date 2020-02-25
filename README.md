@@ -41,14 +41,17 @@ Sprint checkout 2 <br>
 ¿Qué falta del proyecto? <br>
 -Hacker edition de offset negativo <br>
 
-¿Qué siento que puedo mejorar? <br>
-asdfghjk,
-Me sentí increíble esta semana
+<!-- ¿Cómo me sentí?
+Me sentí increíble esta semana, todos los días me ponía una meta puntual y al final del día me sentía satisfecha con mi avance porque cumplía con lo que me había propuesto, dentro de laboratoria siento que me enriquecí mucho con los proyectos de mi squad y con las formas distintas de abarcar un problema que mostraron en sus demos y en la feria los demás grupos-->
+
+<!--¿Qué siento que puedo mejorar?
+Me gustaría mejorar mi manejo del tiempo, medir la cantidad de horas que debo dedicarle a cada caso en particular, también me gustaría ser mas asertiva a la hora de elegir las prioridades del trabajo, en esta ocasión siento que me enfoqué primero en lo que sabía que podía hacer con relativa facilidad (como HTML, CSS, DOM), huyendole o mirando con cierto temor a la funcionalidad javascript, que es donde sentía que tenía menos dominio, considero que debo afrontar el reto en el próximo proyecto con más convicción, tambien buscaré pedir mas feedback asi no sea por una duda, solo para avanzar en la mejor dirección -->
 
 Investigación UX: <br>
 Explicar quiénes son los usuarios y los objetivos en relación con el producto. <br>
 Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios. <br>
-Los usuarios son personas de 12 años en adelante, que se interesan en tener conocimientos de cultura general mediante la lectura de artículos en una revista digital que fomenta la ciencia entre los mas jóvenes, con motivo del mes del amor y la amistad esta revista quería implementar en su web un juego que les mostrara de manera didáctica uno de los cifrados mas sencillos y antiguos y que, por medio de los botones de compartir, se pudiera captar nuevos lectores del contenido de la pagina.
+Los usuarios son personas de 12 años en adelante, que se interesan en tener conocimientos de cultura general mediante la lectura de artículos en una revista digital que fomenta la ciencia entre los mas jóvenes, con motivo del mes del amor y la amistad esta revista quería implementar en su web un juego que les mostrara de manera didáctica uno de los cifrados mas sencillos y antiguos y que, por medio de los botones de compartir, se pudiera captar nuevos lectores del contenido de la pagina. <br>
+El producto satisface los requerimientos del usuario ya que es una web que muestra dos opciones de cifrado y descifrado con sus respectivas instrucciones, unos espacios para colocar el numero de desplazamiento del mensaje, el texto a cifrar/descifrar y un botón que activa el resultado y finalmente unos cuadros vacíos donde aparece el texto cifrado/descifrado al presionar el botón. <br>
 
 Imagen final del proyecto <br>
 
