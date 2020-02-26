@@ -57,7 +57,14 @@ footer {
 .offset {
   display: grid;
   grid-template-columns: 1fr 15%;
+  height: 80px;
 
+}
+
+.offset>p {
+  padding: 0;
+  margin: 0;
+  align-self: center;
 }
 
 .Message {
@@ -171,13 +178,17 @@ footer {
   font-size: 20px;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
+  align-self: center;
+  padding: 5px;
 }
 
 #offset2 {
   color: rgb(223, 22, 163);
   font-size: 20px;
+  align-self: center;
   font-weight: bold;
   font-family: 'Roboto Slab', serif;
+  padding: 5px;
 }
 
 #section1 {
@@ -213,7 +224,7 @@ footer {
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .container {
     display: flex;
     color: rgb(190, 73, 194);
@@ -225,7 +236,7 @@ font-family: 'Roboto Slab', serif; */
   }
 }
 
-@media (min-width: 601px) {
+@media (min-width: 481px) {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
