@@ -110,14 +110,6 @@ footer {
   padding: 3px;
 }
 
-.middleSection {
-  display: grid;
-  grid-template-columns:
-    minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%) minmax(max-content, 40%);
-  justify-self: center;
-  padding-left: 1rem;
-  margin-top: 15px;
-}
 
 .results {
   padding: 1rem;
@@ -225,6 +217,11 @@ font-family: 'Roboto Slab', serif; */
     display: flex;
     color: rgb(190, 73, 194);
     flex-direction: column;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
   }
 
   #tittle {
