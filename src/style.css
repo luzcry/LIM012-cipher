@@ -26,17 +26,12 @@ footer {
   align-self: center;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: rgb(209, 8, 142) 2px solid;
-  color: rgb(190, 73, 194);
-}
 
-.cypher {
+
+.cipher {
   display: flex;
   flex-direction: column;
-  border: rgb(209, 8, 142) 1px solid;
+  border: rgb(209, 8, 142) 2px solid;
   font-family: 'Poppins', sans-serif;
   padding: 1rem 1.5rem;
 }
@@ -44,18 +39,19 @@ footer {
 .unlock {
   display: flex;
   flex-direction: column;
-  border: rgb(85, 82, 84) 1px solid;
+  border: rgb(209, 8, 142) 2px solid;
   padding: 1rem 1.5rem;
   font-family: 'Poppins', sans-serif;
 }
 
-.background {
-  display: grid;
-  grid-template-columns: minmax(max-content, 8%) minmax(max-content, 73%) minmax(max-content, 10%) minmax(max-content, 8%);
+.header {
+  display: flex;
+  justify-content: space-between;
   background: #FFAFBD;
   background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
   background: linear-gradient(to right, #ffc3a0, #FFAFBD);
-  
+  width: 100%;
+
 }
 
 .offset {
@@ -89,6 +85,7 @@ footer {
   font-family: 'Poppins', sans-serif;
   font-weight: bolder;
   font-size: 30px;
+  width: 100%;
 }
 
 .buttonStyle {
@@ -97,7 +94,7 @@ footer {
   border: rgb(218, 11, 149) 1px solid;
   border-radius: 10px;
   color: rgb(163, 13, 113);
-  margin-left: 200px;
+  align-self: center;
   margin-top: 15px;
   width: 100px;
   height: 60px;
@@ -129,6 +126,7 @@ footer {
   width: 350px;
   word-wrap: break-word;
   font-family: 'Roboto Slab', serif;
+  align-self: center;
 }
 
 #tittle {
@@ -136,18 +134,16 @@ footer {
   font-size: 45px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  align-self: center;
 }
 
 #titleImg {
   padding: 1rem;
-  width: 85px;
 }
 
 #iconKey {
   padding: 1rem;
-  width: 85px;
 }
-
 
 #subtittle {
   width: 90%;
@@ -155,6 +151,7 @@ footer {
   font-family: 'Lemonada', cursive;
   font-size: 20px;
   padding-left: 20px;
+  text-align: center;
 }
 
 #text1 {
@@ -194,8 +191,7 @@ footer {
   font-family: 'Roboto Slab', serif;
   font-size: 20px;
   width: 530px;
-  height: 100px;
-  margin-right: 20px;
+  height: 90px;
 }
 
 #chain {
@@ -215,4 +211,26 @@ footer {
 
 /*font-family: 'Lemonada', cursive;
 font-family: 'Poppins', sans-serif;
-font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Slab', serif; */
+
+@media (max-width: 600px) {
+  .container {
+    display: flex;
+    color: rgb(190, 73, 194);
+    flex-direction: column;
+  }
+
+  .cipher {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 601px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(190, 73, 194);
+    padding: 1rem 2rem;
+    gap: 2rem;
+  }
+}

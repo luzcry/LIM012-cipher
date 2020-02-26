@@ -12,51 +12,55 @@
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0">
   </script>
-  <header>
-    <div class="background">
-      <img id="titleImg" src="iconos/icons8-heart-lock-100.png" alt="chat">
-      <h1 id="tittle">¿Sabes que decir, pero no sabes cómo?</h1>
-      <img id="iconKey" src="iconos/icons8-heart-key-100.png" alt="">
-    </div>
-    <h2 id="subtittle">Celebra el mes del amor y la amistad codificando tus mensajes secretos con el Cifrado César</h2>
+  <header class="header">
+    <img id="titleImg" src="iconos/icons8-heart-lock-100.png" alt="chat">
+    <h1 id="tittle">¿Sabes que decir, pero no sabes cómo?</h1>
+    <img id="iconKey" src="iconos/icons8-heart-key-100.png" alt="">
   </header>
+  <h2 id="subtittle">Celebra el mes del amor y la amistad codificando tus mensajes secretos con el Cifrado César</h2>
+
   <main>
     <div class="container">
-      <div class="cypher">
-        <h2 class="head">Cifrar Mensaje</h2>
-        <h3>Instrucciones del Cifrado:</h3> <br>
-        <div class="offset">
-          <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
-          <input class="borde" id="offset1" type="number">
+      <div>
+        <div class="cipher">
+          <h2 class="head">Cifrar Mensaje</h2>
+          <h3>Instrucciones del Cifrado:</h3> <br>
+          <div class="offset">
+            <p>1) Ingresa el número de espacios que quieres que tenga el cifrado</p>
+            <input class="borde" id="offset1" type="number">
+          </div>
+          <div class="Message">
+            <p>2) Inserta el mensaje que quieres cifrar</p>
+            <input class="borde" id="text1" type="text">
+            <div class="CifradoComplete"> </div>
+          </div>
+          <button class="buttonStyle" id="btn">¡A cifrar!</button>
+          <p class="results" id="section1"> </p>
+          <img class="imgResult" id="chain" src="iconos/unlock.png" alt="" />
         </div>
-        <div class="Message">
-          <p>2) Inserta el mensaje que quieres cifrar</p>
-          <input class="borde" id="text1" type="text">
-          <div class="CifradoComplete"> </div>
-        </div>
-        <button class="buttonStyle" id="btn">¡A cifrar!</button>
       </div>
-      <div class="unlock">
-        <h2 class="head">Descifrar Mensaje</h2>
-        <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
-        <div class="offset">
-          <p>1) Ingresa el número de espacios que tiene el cifrado </p>
-          <input class="borde" id="offset2" type="number">
+      <div>
+        <div class="unlock">
+          <h2 class="head">Descifrar Mensaje</h2>
+          <h3>¿Recibiste un mensaje oculto? Descífralo ingresandolo aquí:</h3> <br>
+          <div class="offset">
+            <p>1) Ingresa el número de espacios que tiene el cifrado </p>
+            <input class="borde" id="offset2" type="number">
+          </div>
+          <div class="cypherMessage">
+            <p id="one">2) Inserta el mensaje cifrado que quieres revelar</p>
+            <input class="borde" id="text2" type="text">
+          </div>
+          <div class="descifradoComplete"> </div>
+          <button class="buttonStyle" id="btn2">¡Descubre tu Mensaje!</button>
+          <p class="results" id="section2"> </p>
+          <img class="imgResult" id="key" src="iconos/key.png" alt="" />
         </div>
-        <div class="cypherMessage">
-          <p id="one">2) Inserta el mensaje cifrado que quieres revelar</p>
-          <input class="borde" id="text2" type="text">
-        </div>
-        <div class="descifradoComplete"> </div>
-        <button class="buttonStyle" id="btn2">¡Descubre tu Mensaje!</button>
+
       </div>
-    </div>
   </main>
   <div class="middleSection">
-    <p class="results" id="section1"> </p>
-    <img class="imgResult" id="chain" src="iconos/unlock.png" alt="" />
-    <img class="imgResult" id="key" src="iconos/key.png" alt="" />
-    <p class="results" id="section2"> </p>
+
   </div>
   <div class="sharebtn">
     <div class="fb-share-button" data-href="https://luzcry.github.io/LIM012-cipher/src/index.html" data-layout="button"
