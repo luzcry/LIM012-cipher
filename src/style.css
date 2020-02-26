@@ -4,7 +4,7 @@ body {
 
 footer {
   margin-top: 3rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   color: rgb(206, 8, 140);
 }
 
@@ -26,13 +26,11 @@ footer {
   align-self: center;
 }
 
-
-
 .cipher {
   display: flex;
   flex-direction: column;
   border: rgb(209, 8, 142) 2px solid;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 1rem 1.5rem;
 }
 
@@ -41,27 +39,25 @@ footer {
   flex-direction: column;
   border: rgb(209, 8, 142) 2px solid;
   padding: 1rem 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  background: #FFAFBD;
-  background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
-  background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+  background: #ffafbd;
+  background: -webkit-linear-gradient(to right, #ffc3a0, #ffafbd);
+  background: linear-gradient(to right, #ffc3a0, #ffafbd);
   width: 100%;
-
 }
 
 .offset {
   display: grid;
   grid-template-columns: 1fr 15%;
   height: 80px;
-
 }
 
-.offset>p {
+.offset > p {
   padding: 0;
   margin: 0;
   align-self: center;
@@ -89,7 +85,7 @@ footer {
   color: rgb(206, 8, 140);
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: bolder;
   font-size: 30px;
   width: 100%;
@@ -116,7 +112,9 @@ footer {
 
 .middleSection {
   display: grid;
-  grid-template-columns: minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%) minmax(max-content, 40%);
+  grid-template-columns:
+    minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%)
+    minmax(max-content, 40%);
   justify-self: center;
   padding-left: 1rem;
   margin-top: 15px;
@@ -132,14 +130,14 @@ footer {
   text-align: justify;
   width: 350px;
   word-wrap: break-word;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   align-self: center;
 }
 
 #tittle {
   color: rgb(165, 56, 123);
   font-size: 45px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   align-self: center;
 }
@@ -155,7 +153,7 @@ footer {
 #subtittle {
   width: 90%;
   color: rgb(243, 54, 127);
-  font-family: 'Lemonada', cursive;
+  font-family: "Lemonada", cursive;
   font-size: 20px;
   padding-left: 20px;
   text-align: center;
@@ -177,7 +175,7 @@ footer {
   color: rgb(223, 22, 163);
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   align-self: center;
   padding: 5px;
 }
@@ -187,19 +185,19 @@ footer {
   font-size: 20px;
   align-self: center;
   font-weight: bold;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   padding: 5px;
 }
 
 #section1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   width: 530px;
   height: 90px;
 }
 
 #section2 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   width: 530px;
   height: 90px;
@@ -217,7 +215,6 @@ footer {
   align-self: center;
   margin: 7px;
   height: 75px;
-
 }
 
 /*font-family: 'Lemonada', cursive;
@@ -230,7 +227,12 @@ font-family: 'Roboto Slab', serif; */
     color: rgb(190, 73, 194);
     flex-direction: column;
   }
-
+  #section1 {
+    width: 100%;
+  }
+  #section2 {
+    width: 100%;
+  }
   .cipher {
     margin-bottom: 2rem;
   }
