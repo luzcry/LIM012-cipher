@@ -10,8 +10,7 @@ footer {
 
 .sharebtn {
   display: grid;
-  grid-template-columns: 45% 45%;
-  gap: 1rem;
+  grid-template-columns: 25% 50% 25%;
   margin-top: 15px;
 }
 
@@ -127,7 +126,7 @@ footer {
 
 #tittle {
   color: rgb(165, 56, 123);
-  font-size: 45px;
+  font-size: 35px;
   font-family: "Poppins", sans-serif;
   text-align: center;
   align-self: center;
@@ -187,6 +186,12 @@ footer {
   height: 90px;
 }
 
+#coliseo {
+  justify-self: center;
+  align-self: center;
+  margin-right: 8%;
+}
+
 #section2 {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
@@ -229,15 +234,15 @@ font-family: 'Roboto Slab', serif; */
   }
 
   #titleImg {
-    width: 100px;
-    height: 100px;
-    align-self: center;
+    width: 80px;
+    height: 90px;
+    align-self: flex-start;
   }
 
   #iconKey {
-    width: 100px;
-    height: 100px;
-    align-self: center;
+    width: 80px;
+    height: 90px;
+    align-self: flex-end;
   }
 
   #section1 {
