@@ -23,6 +23,7 @@ footer {
 .fb-share-button {
   justify-self: center;
   align-self: center;
+  width: 50px;
 }
 
 .cipher {
@@ -255,6 +256,11 @@ font-family: 'Roboto Slab', serif; */
 
   .cipher {
     margin-bottom: 2rem;
+  }
+
+  .sharebtn {
+    display: flex;
+    flex-direction: column;
   }
 }
 
