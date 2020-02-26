@@ -57,7 +57,7 @@ footer {
   height: 80px;
 }
 
-.offset > p {
+.offset>p {
   padding: 0;
   margin: 0;
   align-self: center;
@@ -113,8 +113,7 @@ footer {
 .middleSection {
   display: grid;
   grid-template-columns:
-    minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%)
-    minmax(max-content, 40%);
+    minmax(max-content, 30%) minmax(max-content, 30%) minmax(max-content, 8%) minmax(max-content, 40%);
   justify-self: center;
   padding-left: 1rem;
   margin-top: 15px;
@@ -227,12 +226,31 @@ font-family: 'Roboto Slab', serif; */
     color: rgb(190, 73, 194);
     flex-direction: column;
   }
+
+  #tittle {
+    font-size: 25px;
+  }
+
+  #titleImg {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+  }
+
+  #iconKey {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+  }
+
   #section1 {
     width: 100%;
   }
+
   #section2 {
     width: 100%;
   }
+
   .cipher {
     margin-bottom: 2rem;
   }
