@@ -57,7 +57,7 @@ footer {
   height: 80px;
 }
 
-.offset>p {
+.offset > p {
   padding: 0;
   margin: 0;
   align-self: center;
@@ -110,10 +110,9 @@ footer {
 
 .buttonStyle:hover {
   background-color: rgb(235, 176, 198);
-  font-weight: bold;
+  font-weight: 600;
   padding: 3px;
 }
-
 
 .results {
   padding: 1rem;
