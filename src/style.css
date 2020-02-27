@@ -104,6 +104,10 @@ footer {
   font-size: 15px;
 }
 
+.buttonStyle:focus {
+  outline: none;
+}
+
 .buttonStyle:hover {
   background-color: rgb(235, 176, 198);
   font-weight: bold;
